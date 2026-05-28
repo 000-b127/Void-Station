@@ -1,32 +1,58 @@
-<!DOCTYPE html>
-<html lang='pt-br'>
-<head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Void-Station</title>
-    <link rel='stylesheet' href='main.css'>
-    <link rel='icon' type="image/png" href='favicon.png'>
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
     <header class="Cabecalho">
-        <h1>Void-Station</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#Contato">Contato</a>
-        </nav>
+      <h1>Void-Station</h1>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Contato">Contato</a>
+      </nav>
     </header>
     <main>
-        <img src="Void-Station.png" alt="Void-Station" height="50px" width="350px">
-        <h3>Bem-Vindo</h3>
+      <img
+        src="Void-Station.png"
+        alt="Void-Station"
+        height="50px"
+        width="350px"
+      />
+      <h3>Bem-Vindo</h3>
 
-        <div id="Sobre">
-            <h3><strong>Sobre:</strong>Void-Station é um espaço experimental para projetos visuais, programação e arte digital.</h3>
+      <section class="Fanarts">
+        <h2>Fanarts da Comunidade</h2>
+
+        <p>Envie sua arte para Void-Station.</p>
+
+        <div class="upload-area">
+          <input type="file" id="fanartUpload" accept="image/*" />
+
+          <button>Enviar Fanart</button>
         </div>
+
+        <div class="galeria">
+          <img src="fanart1.png" alt="Fanart" />
+          <img src="fanart2.png" alt="Fanart" />
+          <img src="fanart3.png" alt="Fanart" />
+        </div>
+      </section>
+
+      <div id="Sobre">
+        <h3>
+          <strong>Sobre:</strong>Void-Station é um espaço experimental para
+          projetos visuais, programação e arte digital.
+        </h3>
+      </div>
     </main>
     <footer>
-        <p id="Contato">Contato: zeroovaizio@gmail.com</p>
-        <p>Por: ⛧ƶɇɍø♱</p>
+      <p id="Contato">Contato: zeroovaizio@gmail.com</p>
+      <p>Por: ⛧ƶɇɍø♱</p>
     </footer>
-</body>
+  </body>
 </html>
